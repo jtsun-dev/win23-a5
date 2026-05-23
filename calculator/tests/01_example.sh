@@ -29,3 +29,7 @@ if $CALCULATOR 3 @ 2; then  # If the return code of $PROGRAM is zero (i.e. succe
   echo 'ERROR! An invalid run of the application (3 @ 2) apparently succeeded?!'
   exit 1
 fi
+../calculator 5 + 3
+../calculator 10 - 2
+$CALCULATOR 5 + 3
+$CALCULATOR 10 - 2
